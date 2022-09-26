@@ -12,9 +12,11 @@ $pass = $_POST['password'];
 $email = $_POST['email'];
 
 $name = $_POST['user'];
+$emailID = $_POST['Email-ID'];
+$passNeww = $_POST['passwordNew'];
 
 
-$s = "select * from usertable where name='$name' " ;
+$s = "select * from usertable where name='$name'" ;
 $result = mysqli_query($con, $s);
 $num = mysqli_num_rows($result);
 
@@ -23,7 +25,8 @@ if($num == 1){
     echo "Username already taken";
 }else{
     $myName = $_SESSION['username'];
-    $reg= "update usertable set name='$name' where name='$myName'";
+    console.log(emailID);
+    $reg= "update usertable set name='$name', email='$emailID', password='$passNeww' where name='$myName'";
     mysqli_query($con, $reg);
     echo "Registration Successful";
 }
