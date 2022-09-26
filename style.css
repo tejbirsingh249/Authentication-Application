@@ -1,0 +1,110 @@
+body{
+    background: linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)), url(image.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.retreivedata{
+    display: none;
+}
+
+.g-signin2{
+    position: absolute;
+    margin-top: 10px;
+}
+
+.login-box{
+    max-width: 700px;
+    float: none;
+    margin: 150px auto;
+}
+
+.login-left{
+    background: rgba(211,211,211,0.5);
+    padding: 30px;
+}
+
+.login-right{
+    background: #fff;
+    padding: 30px;
+}
+
+.form-control{
+    background-color: transparent !important;
+}
+
+.logout{
+    color: #fff !important;
+    margin-top: -200px !important;
+    float: right !important;
+    text-align: center;
+    text-decoration: none;
+}
+
+.signout_details{
+    color: #fff !important;
+    margin-right: 20px !important;
+    margin-top: -200px !important;
+    float: right !important;
+    text-align: center;
+    text-decoration: none;
+}
+
+.edit_details{
+    color: #fff !important;
+    float: right ;
+    margin-right: 90px !important;
+    margin-top: -200px !important;
+    text-align: center;
+    text-decoration: none;
+}
+
+.view{
+    color: #fff;
+    margin-top: -200px !important;
+    float: right !important;
+    margin-right: 72px !important;
+    text-align: center;
+    text-decoration: none;
+}
+
+h1{
+    color: #fff !important;
+    margin-top: 200px !important;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+button{
+    margin-top: 20px !important;
+}
+
+input{
+    margin-top: 5px !important;
+}
+
+label{
+    margin-top: 15px !important;
+}
+
+.details-box{
+    background: rgba(211,211,211,0.5);
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+    margin-top: 200px !important;
+}
+
+.style_label{
+    font-weight: bold !important;
+}
+
+.fb{
+    background-color: #3B5998;
+    color: white;
+}
+
+.google{
+    background-color: #dd4b39;
+    color: white;
+}
